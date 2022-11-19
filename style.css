@@ -59,3 +59,113 @@ padding: 0 15px;
   background-color: #2c71b8;
   color: white;
 }
+.header-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-form {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #2c71b8;
+  width: 200px;
+  height: 40px;
+}
+.header-form input {
+  background: transparent;
+  border:  none;
+  font-size: 21px;
+  color: #2c71b8;
+  width: 100%;
+}
+.header-form input::placeholder {
+  color: #2c71b8;
+}
+.header-form input:focus {
+outline: none;
+}
+
+.header-form button  {
+  width: 30px;
+  height: 30px;
+  background-color: #2c71b8;
+  border: none;
+  cursor: pointer;
+
+}
+.cart a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/img/icon\ \(1\).png) center no-repeat, #fff;
+width: 40px;
+height: 40px;
+position: relative;
+}
+.cart a:hover {
+  background: url(/img/icon\ \(2\).png) center no-repeat, #2c71b8;
+}
+.cart a:hover .counter {
+  background-color: #fff;
+  color: #2c71b8;
+}
+.counter {
+  background-color: #2c71b8;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 20px;
+height: 20px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+font-size: 12px;
+font-weight: 400;
+}
+
+.header-li-hovered {
+position: relative;
+
+}
+.header-li-hovered a {
+  background: url(/img/Прямоугольник_4_копия.png) no-repeat 107px;
+}
+.header-li-hovered:hover .modal-menu {
+  opacity: 1;
+  visibility: visible;
+}
+.header-li-hovered:hover >a {
+  background: url(/img/Прямоугольник_4_копия_13.svg)no-repeat 107px, #2c71b8;
+  color: white;
+}
+.modal-menu {
+position: absolute;
+width: 286px;
+height: 315px;
+background-color: #2c71b8;
+padding: 20px 0px;
+opacity: 0;
+visibility: hidden;
+transition: all ease 0.5s;
+}
+.modal-menu ul li a {
+  color: white;
+  text-align: left;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 20px;
+}
+.modal-menu li {
+  width: 100%;
+  border: none;
+}
+.modal-menu li:last-child {
+  border: none;
+}
+.modal-menu ul li a:hover{
+  color: #2c71b8;
+  background: white;
+}
