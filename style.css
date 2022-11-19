@@ -4,7 +4,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  background: url(/img/patt.png);
+  background: url(img/patt.png);
 }
 
 .container {
@@ -98,13 +98,13 @@ outline: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(/img/icon\ \(1\).png) center no-repeat, #fff;
+  background: url(img/icon\ \(1\).png) center no-repeat, #fff;
 width: 40px;
 height: 40px;
 position: relative;
 }
 .cart a:hover {
-  background: url(/img/icon\ \(2\).png) center no-repeat, #2c71b8;
+  background: url(img/icon\ \(2\).png) center no-repeat, #2c71b8;
 }
 .cart a:hover .counter {
   background-color: #fff;
@@ -131,14 +131,14 @@ position: relative;
 
 }
 .header-li-hovered a {
-  background: url(/img/Прямоугольник_4_копия.png) no-repeat 107px;
+  background: url(img/Прямоугольник_4_копия.png) no-repeat 107px;
 }
 .header-li-hovered:hover .modal-menu {
   opacity: 1;
   visibility: visible;
 }
 .header-li-hovered:hover >a {
-  background: url(/img/Прямоугольник_4_копия_13.svg)no-repeat 107px, #2c71b8;
+  background: url(img/Прямоугольник_4_копия_13.svg)no-repeat 107px, #2c71b8;
   color: white;
 }
 .modal-menu {
