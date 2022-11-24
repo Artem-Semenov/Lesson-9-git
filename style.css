@@ -140,14 +140,14 @@ position: relative;
 
 }
 .header-li-hovered a {
-  background: url(img/Прямоугольник_4_копия.png) no-repeat 107px;
+  background: url(img/arrow-blue.png) no-repeat 110px;
 }
 .header-li-hovered:hover .modal-menu {
   opacity: 1;
   visibility: visible;
 }
 .header-li-hovered:hover >a {
-  background: url(img/Прямоугольник_4_копия_13.svg)no-repeat 107px, #2c71b8;
+  background: url(img/Прямоугольник_4_копия_13.svg)no-repeat 110px, #2c71b8;
   color: white;
 }
 .modal-menu {
