@@ -31,9 +31,18 @@ padding: 0 15px;
   flex: 0 0 25%;
   max-width: 25%;
 }
+.col-4 {
+  flex: 0 0 33.3%;
+  max-width: 33.3%;
+}
 .col-6 {
   flex: 0 0 50%;
   max-width: 50%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
 }
 
 .menu {
@@ -168,4 +177,101 @@ transition: all ease 0.5s;
 .modal-menu ul li a:hover{
   color: #2c71b8;
   background: white;
+}
+
+.main {
+}
+.slider {
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.goods-wrapper {
+  width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+.goods-content {
+margin: 0 -15px;
+display: flex;
+}
+.goods__filter {
+  height: 843px;
+  width: 270px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.goods__items {
+  display: flex;
+  flex-direction: column;
+gap: 30px;
+padding-top: 30px;
+}
+.row {
+  display: flex;
+  gap: 30px;
+}
+.goods__items > div {
+  display:  flex;
+
+}
+.item {
+  width: 33.3%;
+  padding: 0 15px;
+  height: 622px;
+  border: 1px solid #ffffff;
+  background-color: #2c71b8;
+}
+.item-content {
+}
+.device-name {
+}
+.device-description {
+}
+.device-type {
+}
+.screen-size {
+}
+.revice-ram {
+}
+.device-price {
+}
+.device-more-details {
+}
+.device-add-to-cart {
+}
+.goods-navigation > a{
+  display: block;
+margin-right: 10px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.goods-navigation a.underline {
+  text-decoration: underline;
+}
+.goods-sub-filter {
+display: flex;
+justify-content: space-between;
+}
+.goods-sub-filter h3 {
+color: #ffffff;
+font-family: 'Roboto';
+font-size: 48px;
+font-weight: 700;
+}
+
+.goods-sub-filter select {
+padding-left: 20px;
+width: 270px;
+height: 40px;
+border: 1px solid #ffffff;
+background-color: #2c71b8;
+color: #fff;
+font-family: 'Roboto';
+outline: none;
 }
