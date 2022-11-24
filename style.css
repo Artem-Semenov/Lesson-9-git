@@ -152,6 +152,8 @@ position: relative;
 }
 .modal-menu {
 position: absolute;
+top: 50px;
+left: -1px;
 width: 286px;
 height: 315px;
 background-color: #2c71b8;
