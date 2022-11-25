@@ -213,8 +213,13 @@ display: flex;
 gap: 30px;
 padding-top: 30px;
 }
+.items-list {
+  display: flex;
+  flex-direction: column;
+}
 .row {
   display: flex;
+
   gap: 30px;
 }
 .goods__items > div {
@@ -345,8 +350,11 @@ background-position: 165px 15px;
 .device-add-to-cart:hover,.device-more-details:hover {
   background-color:rgba(255 , 255, 255, 0.4);
 }
-.goods-navigation > a{
-  display: block;
+.goods-navigation ul{
+ display: flex;
+}
+.goods-navigation > ul >li > a{
+ display: block; 
 margin-right: 10px;
   opacity: 0.5;
   color: #ffffff;
