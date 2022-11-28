@@ -68,7 +68,45 @@
         <div class="goods-wrapper">
           <div class="goods-content">
             <section class="col-3">
-              <div class="goods__filter"></div>
+              <div class="filter">
+                <div class="goods__filter">
+                  <div class="filter-device-type">
+                    <p>devise type</p>
+                    <input type="checkbox" name="laptop" id="laptop" />
+                    <label for="laptop">Laptop</label>
+                    <input type="checkbox" name="tablet" id="tablet" />
+                    <label for="tablet">Tablet</label>
+                  </div>
+                  <div class="filter-device-color">
+                    <p>color</p>
+                    <input type="checkbox" name="black" id="black" />
+                    <label for="black">Black</label>
+                    <input type="checkbox" name="red" id="red" />
+                    <label for="red">Red</label>
+                    <input type="checkbox" name="green" id="green" />
+                    <label for="green">Green</label>
+                    <input type="checkbox" name="blue" id="blue" />
+                    <label for="blue">Blue</label>
+                    <input type="checkbox" name="orange" id="orange" />
+                    <label for="orange">Orange</label>
+                  </div>
+                  <div class="filter-device-ram">
+                    <p>ram</p>
+                    <input type="checkbox" name="ram-1" id="ram-1" />
+                    <label for="ram-1">1 GB</label>
+                    <input type="checkbox" name="ram-2" id="ram-2" />
+                    <label for="ram-2">2 GB</label>
+                    <input type="checkbox" name="ram-4" id="ram-4" />
+                    <label for="ram-4">4 GB</label>
+                    <input type="checkbox" name="ram-8" id="ram-8" />
+                    <label for="ram-8">8 GB</label>
+                    <input type="checkbox" name="ram-16" id="ram-16" />
+                    <label for="ram-16">16 GB</label>
+                  </div>
+                </div>
+                <p class="filter-show-more-options">Show more options...</p>
+                <button class="filter-submit-button">Submit</button>
+              </div>
             </section>
             <section class="goods__items col-9">
               <nav class="goods-navigation">
@@ -87,8 +125,8 @@
                   <option value="">Sort by popularity</option>
                 </select>
               </div>
-              <ul class="items-list">
-                <div class="row col-12">
+              <ul class="row">
+                <div class="col-12 items-list">
                   <li class="item">
                     <div class="device-photo">
                       <img src="img/icon (14).png" alt="" />
@@ -111,8 +149,8 @@
                       </p>
                       <p class="revice-ram"><span>RAM:</span> 1GB</p>
                       <p class="device-price">$599 <span>25</span></p>
-                      <p class="device-more-details">more details</p>
-                      <p class="device-add-to-cart">Add to cart</p>
+                      <button class="device-more-details">more details</button>
+                      <button class="device-add-to-cart">Add to cart</button>
                     </div>
                   </li>
                   <li class="item">
@@ -137,8 +175,8 @@
                       </p>
                       <p class="revice-ram"><span>RAM:</span> 1GB</p>
                       <p class="device-price">$599 <span>25</span></p>
-                      <p class="device-more-details">more details</p>
-                      <p class="device-add-to-cart">Add to cart</p>
+                      <button class="device-more-details">more details</button>
+                      <button class="device-add-to-cart">Add to cart</button>
                     </div>
                   </li>
                   <li class="item">
@@ -163,12 +201,11 @@
                       </p>
                       <p class="revice-ram"><span>RAM:</span> 1GB</p>
                       <p class="device-price">$599 <span>25</span></p>
-                      <p class="device-more-details">more details</p>
-                      <p class="device-add-to-cart">Add to cart</p>
+                      <button class="device-more-details">more details</button>
+                      <button class="device-add-to-cart">Add to cart</button>
                     </div>
                   </li>
-                </div>
-                <div class="row col-12">
+
                   <li class="item">
                     <div class="device-photo">
                       <img src="img/icon (14).png" alt="" />
@@ -191,34 +228,8 @@
                       </p>
                       <p class="revice-ram"><span>RAM:</span> 1GB</p>
                       <p class="device-price">$599 <span>25</span></p>
-                      <p class="device-more-details">more details</p>
-                      <p class="device-add-to-cart">Add to cart</p>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div class="device-photo">
-                      <img src="img/icon (14).png" alt="" />
-                      <button class="scale-button">
-                        <!-- <img src="img/scale.png" alt=""> -->
-                      </button>
-                      <button class="favorite-button">
-                        <!-- <img src="img/heart-icon.png" alt=""> -->
-                      </button>
-                    </div>
-                    <div class="item-content">
-                      <h3 class="device-name">#1 Device Name</h3>
-                      <p class="device-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit.
-                      </p>
-                      <p class="device-type"><span>TYPE:</span> Laptop</p>
-                      <p class="screen-size">
-                        <span>Screen size:</span> 7 inches
-                      </p>
-                      <p class="revice-ram"><span>RAM:</span> 1GB</p>
-                      <p class="device-price">$599 <span>25</span></p>
-                      <p class="device-more-details">more details</p>
-                      <p class="device-add-to-cart">Add to cart</p>
+                      <button class="device-more-details">more details</button>
+                      <button class="device-add-to-cart">Add to cart</button>
                     </div>
                   </li>
                   <li class="item">
@@ -243,38 +254,11 @@
                       </p>
                       <p class="revice-ram"><span>RAM:</span> 1GB</p>
                       <p class="device-price">$599 <span>25</span></p>
-                      <p class="device-more-details">more details</p>
-                      <p class="device-add-to-cart">Add to cart</p>
+                      <button class="device-more-details">more details</button>
+                      <button class="device-add-to-cart">Add to cart</button>
                     </div>
                   </li>
-                </div>
-                <div class="row col-12">
-                  <li class="item">
-                    <div class="device-photo">
-                      <img src="img/icon (14).png" alt="" />
-                      <button class="scale-button">
-                        <!-- <img src="img/scale.png" alt=""> -->
-                      </button>
-                      <button class="favorite-button">
-                        <!-- <img src="img/heart-icon.png" alt=""> -->
-                      </button>
-                    </div>
-                    <div class="item-content">
-                      <h3 class="device-name">#1 Device Name</h3>
-                      <p class="device-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit.
-                      </p>
-                      <p class="device-type"><span>TYPE:</span> Laptop</p>
-                      <p class="screen-size">
-                        <span>Screen size:</span> 7 inches
-                      </p>
-                      <p class="revice-ram"><span>RAM:</span> 1GB</p>
-                      <p class="device-price">$599 <span>25</span></p>
-                      <p class="device-more-details">more details</p>
-                      <p class="device-add-to-cart">Add to cart</p>
-                    </div>
-                  </li>
+                  
                   <li class="item">
                     <div class="device-photo">
                       <img src="img/icon (14).png" alt="" />
@@ -335,6 +319,6 @@
         </div>
       </section>
     </main>
-    <footer class="footer">Footer</footer>
+    <footer class="footer">© Copyright 2017</footer>
   </body>
 </html>
