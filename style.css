@@ -184,8 +184,7 @@ transition: all ease 0.5s;
   background: white;
 }
 
-.main {
-}
+
 .slider {
   border-bottom: 1px solid white;
   height: 400px;
@@ -296,7 +295,8 @@ color: #fff;
 .items-list {
   display: flex;
  flex-wrap: wrap;
-  gap: 30px; 
+  /* gap: 30px;  */
+
 }
 .goods__items {
   padding-top: 20px;
@@ -316,7 +316,7 @@ flex-direction: column;
  max-width: 270px;
   border: 1px solid #ffffff;
   background-color: rgba(44, 113, 184, 0.7);
-
+margin-top: 30px;
 }
 
 .device-photo {
@@ -463,7 +463,7 @@ margin-right: 10px;
 .goods-sub-filter {
 display: flex;
 justify-content: space-between;
-margin-bottom: 50px;
+margin-bottom: 20px;
 }
 .goods-sub-filter h3 {
 color: #ffffff;
