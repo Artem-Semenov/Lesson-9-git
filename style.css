@@ -186,10 +186,44 @@ transition: all ease 0.5s;
 
 
 .slider {
+
   border-bottom: 1px solid white;
   height: 400px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2);
 }
+
+.swiper {
+  width: 900px;
+  height: 380px;
+}
+.swiper .swiper-button-next, .swiper .swiper-button-prev {
+  color: #fff
+}
+.swiper .swiper-pagination-bullet {
+  border-radius: 0px;
+  opacity: 1;
+  border: 1px solid white;
+  background: transparent;
+  width: 10px;
+  height: 10px;
+}
+.swiper .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+  background: rgba(0, 0, 0, 0.2);
+ text-align: center;
+ color: #ffffff;
+  font-family: "Roboto";
+  font-size: 100px;
+  line-height: 380px;
+  font-weight: 400;
+
+}
+
+
 
 .goods {
   padding-bottom: 100px;
