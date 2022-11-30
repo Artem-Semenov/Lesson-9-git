@@ -74,7 +74,7 @@ const swiper = new Swiper(".swiper", {
   //loopedSlides: 3,
 
   //Свободный режим
-  freeMode: true,
+  //freeMode: true,
 
   /* autoplay: {
 delay: 2000,
