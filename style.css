@@ -386,6 +386,10 @@ cursor: pointer;
 .favorite-button:hover {
 background:#2c71b8 url(img/white\ heart.png) center no-repeat;
 }
+.favorite-button.active {
+background:#2c71b8 url(img/white\ heart.png) center no-repeat;
+
+}
 .item-content {
   font-family: 'Roboto';
   padding: 15px;
@@ -544,4 +548,56 @@ color: #2c71b8;
 font-family: 'Roboto';
 font-size: 21px;
 background: rgba(255 , 255, 255, 0.75);
+}
+
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+}
+.modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+.modal-block {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  background: #fff;
+  padding: 15px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.form-field {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.form-field input {
+  width: 100%;
+}
+.form-call {
+  padding-top: 30px;
+}
+.form-call h3 {
+margin-bottom: 15px;
+text-align: center;
+}
+.form-call button {
+  display: block;
+  width: fit-content;
+  margin: auto;
 }
