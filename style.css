@@ -191,7 +191,22 @@ transition: all ease 0.5s;
   height: 400px;
   background: rgba(0, 0, 0, 0.2);
 }
-
+.slider > div {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+text-align: center;
+line-height: 400px;
+}
+.slick-next {
+  right: -50px;
+}
+.slick-prev {
+  left: -50px;
+}
+.slick-next:before, .slick-prev:before {
+  font-size: 40px;
+}
 .swiper {
   width: 900px;
   height: 380px;
