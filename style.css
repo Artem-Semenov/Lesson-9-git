@@ -616,3 +616,7 @@ text-align: center;
   width: fit-content;
   margin: auto;
 }
+.product-quantity {
+  text-align: center;
+  margin-bottom: 10px;
+}
