@@ -57,13 +57,13 @@ $(".slider").slick();
 
 ////
 
-let decrementBtn = $(".decrement-btn")[0];
+let decrementBtn = document.querySelectorAll(".decrement-btn");
 console.log(decrementBtn);
 
-let incrementBtn = $(".increment-btn")[0];
+let incrementBtn = document.querySelectorAll(".increment-btn");
 console.log(incrementBtn);
 
-let productQuantity = $(".item-counter-value")[0];
+let productQuantity = document.querySelectorAll(".item-counter-value");
 console.log(productQuantity);
 
 function Counter(incrementBtn, decrementBtn, inputField) {
@@ -100,22 +100,13 @@ function Counter(incrementBtn, decrementBtn, inputField) {
   this.toggleButtonState();
 }
 
-const counter1 = new Counter(incrementBtn, decrementBtn, productQuantity);
+let counters = [];
+productQuantity.forEach((el, i) => {
+  counters[i] = new Counter(
+    incrementBtn[i],
+    decrementBtn[i],
+    productQuantity[i]
+  );
+});
 
-console.log(counter1);
-
-decrementBtn.onclick = () => {
-  $(".item-counter-value");
-};
-
-incrementBtn.onclick = () => {
-  $(".item-counter-value");
-};
-
-/* function Car(model, color, year) {
-  this.model = model;
-  this.year = year;
-  this.color = color;
-  // console.log(this);
-}
-let audi = new Car('audi', 'red', 2011) */
+AOS.init();
